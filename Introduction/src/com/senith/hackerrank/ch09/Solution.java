@@ -44,13 +44,12 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         B = scanner.nextInt();
         H = scanner.nextInt();
+        scanner.close();
 
         if (B <= 0 || H <= 0) {
             System.out.println("java.lang.Exception: Breadth and height must be positive");
-            scanner.close();
             return false;
         }
-        scanner.close();
         return true;
     }
 
