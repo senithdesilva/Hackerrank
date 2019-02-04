@@ -1,4 +1,4 @@
-package com.senith.hackerrank;
+package com.senith.hackerrank.ch01;
 
 //You are required to compute the power of a number by implementing a calculator. Create a class MyCalculator which consists of a single method long power(int, int). This method takes two integers,  and , as parameters and finds . If either  or  is negative, then the method must throw an exception which says "". Also, if both  and  are zero, then the method must throw an exception which says ""
 //

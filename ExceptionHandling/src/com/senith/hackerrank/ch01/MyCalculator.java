@@ -1,4 +1,4 @@
-package com.senith.hackerrank;
+package com.senith.hackerrank.ch01;
 
 class MyCalculator {
     static String power(int n, int p) throws Exception {
